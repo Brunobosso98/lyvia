@@ -1,0 +1,17 @@
+.cor-fundo {
+    background-color: pink
+}
+
+/* Estilo padrão (desktop) */
+#carouselExampleControls img {
+    height: 600px;
+    object-fit: cover;
+}
+
+/*Para telas menores que 768px (celulares)*/
+@media (max-width: 768px) {
+    #carrouselExampleControls img {
+
+    height: 300px;
+    }
+}
